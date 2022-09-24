@@ -1,0 +1,49 @@
+.bloco-3 {
+    display: flex;
+    background: linear-gradient(#6676AA, #6373ab, #45548a);
+    margin: 0 1.5em 3em 1.5em;
+    padding: 0.6em;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: inset -2px -2px 1px rgba(68, 100, 170, 0.549);
+    
+
+}
+
+.img__bloco-3 {
+    width: 29px;
+    margin-left: 3.7px;
+    text-align: center;
+    position: absolute;
+    bottom: 15%;
+    right: 12%;
+    filter: invert(100%);
+    
+    
+       
+}
+
+
+.back__img-3 {
+    background-color: #5f6fb5;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    position: relative;
+    
+
+}
+
+.bloco-3__descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.titulo__bloco-3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}

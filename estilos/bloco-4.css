@@ -1,0 +1,27 @@
+.bloco-4 {
+    display: flex;
+    background: linear-gradient(#FEA758, #FEA255, #FE7644);
+    margin: 0 1.5em 3em 4.2em;
+    padding: 0.2em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: inset -2px -2px 1px rgba(68, 100, 170, 0.549);
+    width: 60%;
+    
+    
+
+}
+
+.img__bloco-4 {
+    width: 35px;  
+    padding-bottom: 5px; 
+}
+
+.titulo__bloco-4 {
+    font-size: .8em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 12px;
+    margin-top: 5px;
+}

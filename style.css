@@ -1,0 +1,22 @@
+@import url(estilos/cabecalho.css);
+@import url(estilos/bloco-1.css);
+@import url(estilos/bloco-2.css);
+@import url(estilos/bloco-3.css);
+@import url(estilos/bloco-4.css);
+
+:root {
+    --cor-botao: #3B3C41;
+    --cor-fundo: #1F1F1F;
+    --branco: #FFFFFF;
+    --cinza-claro: #DBDBDB;
+    --gradiente-verde:  linear-gradient(#20A053, #189E59, #0B8D69);
+}
+
+
+
+
+body {
+    background: var(--cor-fundo);
+    color: var(--branco);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}

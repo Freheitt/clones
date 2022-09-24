@@ -1,0 +1,78 @@
+.bloco-1 {
+    display: flex;
+    background: var(--gradiente-verde);
+    margin: 9em 1.5em 1em 1.5em;
+    padding: 0.6em;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: inset -2px -2px 1px rgb(78, 124, 91);
+}
+
+.mes {
+    background: #61C27B;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: .2em;
+    border-radius: 8px 8px 0 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.dia {
+    background: #61C27B;
+    text-align: center;
+    padding: .3em .8em;
+    border-radius: 0 0 8px 8px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.bloco-1__calendario {
+    margin-left: -2px;
+}
+
+.titulo__bloco-1 {
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-top: 4px;
+    letter-spacing: 1px;
+    padding-left: .5em;
+    
+}
+
+
+.bloco-1__descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.bloco-1__sinal {
+    position: absolute;
+    bottom: 90%;
+    left: 98%;
+    background: linear-gradient(#FD5A6F, #FD7A66, #A99165);
+    font-size: 16px;
+    padding: 0.1em;
+    width: 15px;
+    border-radius: 100px;
+    text-align: center;
+    font-weight: 500;
+    
+    
+}
+
+.descricao__bloco-1 {
+    margin-top: 5px;
+    background: #107F4A;
+    padding: 3px 1px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+    width: 60%;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
